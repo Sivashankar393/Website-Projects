@@ -1,8 +1,7 @@
 import Hero from "../components/Hero"
 import Navbar from"../components/Navbar"
-import AboutImg from"../assets/imag6.jpg"
-import Footer from"../components/Footer";
-import Trip from "../components/Trip"
+import AboutImg from"../assets/imag13.jpg"
+
 
 function Service (){
     return (    
@@ -11,6 +10,8 @@ function Service (){
         <Hero 
         cName=".hero-mid"heroImg={AboutImg} title="Serivice"btnClass="hide"
         />
+     
+    
 
 
         </>

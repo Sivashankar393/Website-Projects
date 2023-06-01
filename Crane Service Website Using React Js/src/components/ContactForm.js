@@ -1,4 +1,5 @@
 import "./ContactFormStyles.css" 
+import Contact from "../routes/Contact";
 
 
 function ContactForm (){
@@ -13,6 +14,7 @@ function ContactForm (){
                 <button>Send Message</button>
 
             </form>
+            <Contact/>
 
         </div>
     )

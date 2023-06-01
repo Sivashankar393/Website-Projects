@@ -16,9 +16,9 @@ function About(){
         btnClass="hide"
         text =""
 
-
         />
         <AboutUs/>
+    
     
         </>
     );
