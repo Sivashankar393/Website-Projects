@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import TodoList from './TodoList';
 import { v4 as uuidv4 } from 'uuid';
+import Three from './components/Three';
 
 function App() {
   const [todoList, setTodoList] = useState([]);
@@ -38,6 +39,7 @@ function App() {
 
   return (
     <div>
+      <Three/>
       <TodoList todoList={todoList} toogleComplete={toogleComplete} />
       <input ref={inputRef} />
       <button onClick={handleAddClick}>Add todo</button>
